@@ -182,9 +182,9 @@ class Transformer(nn.Module):
         model_rate=1.0,
         num_tokens=33279,
         embedding_size=256,
-        num_heads=8,
-        hidden_size=512,
-        num_layers=4,
+        num_heads=16,
+        hidden_size=1024,
+        num_layers=24,
         dropout=0.2,
     ):
         super().__init__()
