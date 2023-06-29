@@ -23,6 +23,8 @@ server:
     random_seed: 1
 
     simulate_wall_time: true
+    checkpoint_path: /data/dixi/plato/models/bert/fedavg/
+    model_path: /data/dixi/plato/models/bert/fedavg
 
 data:
     # The training and testing dataset
